@@ -43,6 +43,7 @@ dependencies:
   flutter_map_marker_cluster: ^8.2.2
   shimmer: ^3.0.0
   cached_network_image: ^3.4.1
+  flutter_launcher_icons: ^0.14.4
 
 
 dev_dependencies:
@@ -74,3 +75,10 @@ flutter_native_splash:
     image: assets/images/android12.png
     icon_background_color: "#1597A8"
     color: "#1597A8"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/logo_other.png
+  adaptive_icon_background: "#1597A8"
+  adaptive_icon_foreground: assets/images/logo_other.png
